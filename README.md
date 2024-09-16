@@ -13,26 +13,12 @@ En esos ejercicios se demuestra mediante recursividad como realizar programas si
 
 ### Algoritmo de Dividir sin Dividir
 
-Para este algoritmo 
+Para este algoritmo se usa una funcion que tiene dos parametros y lo que hace es restar de forma recursiva y asi simulando el proceso de la division. 
 
+### Algoritmo de Multiplicar sin Multiplicar
 
-## Requisitos del Lenguaje y Entorno
+Para este algoritmo se usa una funcion que tiene dos parametros y lo que hace es sumar  de forma recursiva y asi simulando el proceso de la multiplicación ademas de eso se toman los casos de si la multiplicacion es por 0 o si el numero multiplicado es negativo
 
-### Arquitectura
+### Algoritmo Termino **N** de la serie Fibonacci
 
-- **Registro AL**: Este programa está diseñado para ejecutarse en una arquitectura basada en el conjunto de instrucciones x86. Utiliza registros como `AL` y `BL`, que son registros de 8 bits comúnmente utilizados en microprocesadores x86 para operaciones básicas.
-- **Instrucciones básicas**: El programa utiliza instrucciones simples como `MOV`, `INC`, `CMP`, `JZ`, `JMP`, y `CALL`, que son comunes en la mayoría de los ensambladores de la arquitectura x86.
-
-### Simulador utilizado
-
-- El código está diseñado para ejecutarse en el **Simulador de Ensamblador Online** disponible en [https://exuanbo.xyz/assembler-simulator](https://exuanbo.xyz/assembler-simulator).
-- Este simulador es una herramienta basada en navegador que permite probar y ejecutar código en ensamblador con una sintaxis simplificada. Está orientado a la educación y permite ejecutar programas de manera visual sin necesidad de utilizar un entorno físico o emulador más complejo.
-
-### Sintaxis específica
-
-- No soporta secciones de código con `section .data` o `section .text` que son típicas en otros ensambladores.
-- Las etiquetas de procedimientos y direcciones como `ORG` se utilizan para definir rutinas personalizadas, y las instrucciones como `CALL` permiten saltar a esas rutinas.
-
-### Compatibilidad
-
-- El programa es compatible con entornos de simulación educativos y no está orientado para ser ejecutado directamente en un procesador físico sin adaptación a un ensamblador de mayor nivel como NASM o MASM, que podrían requerir configuraciones adicionales.
+Para este algoritmo se una resta para encontrar el penultimo y el antepenultimo termino de la serie, despues de eso se suman esos dos terminos dando como resultado el valor de Fibonacci
